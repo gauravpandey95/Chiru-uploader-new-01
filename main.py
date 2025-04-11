@@ -143,7 +143,7 @@ YOUR_ADMIN_ID = 6376631545
 
 # Helper function to check admin privilege
 def is_admin(user_id): 6376631545
-    return user_id == 6376631545
+    return user_id == YOUR_ADMIN_ID
 
 # Command to show all users (Admin only)
 @bot.on_message(filters.command("users") & filters.private)
