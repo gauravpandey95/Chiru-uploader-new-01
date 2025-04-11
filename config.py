@@ -1,8 +1,8 @@
 import os
 
-API_ID = os.environ.get("API_ID", "26468828")
+API_ID = os.environ.get("API_ID", "29946578")
 
-API_HASH = os.environ.get("API_HASH", "4693513c08d1ac6af15f95b116c29478")
+API_HASH = os.environ.get("API_HASH", "57e0b762f105ab1db072fabe4d65114b")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
@@ -14,10 +14,10 @@ PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
 # UPDATE_GRP = , # bot sat group
 
-# auth_chats = []
+# auth_chats = [6376631545]
 
 #try:
-    #ADMINS=[7827463899]
+    #ADMINS=[6376631545]
     #for x in (os.environ.get("ADMINS", "7827463899").split()):
         #ADMINS.append(int(x))
 #except ValueError:
